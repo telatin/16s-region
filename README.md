@@ -27,10 +27,11 @@ than one sequence it will output the prediction for all of them, and since this 
      -c, --compact         Compact JSON (i.e. disable pretty print)
      -f, --full            Add running parameters to JSON output
 
+```
+
 The JSON report has an "input_seqs" section, with the alignment read per read, and a "global_seqs" summary with the ratio (0-1) of sequences reported to cover a region.
 
 ```	
-
 {
    "input_seqs" : {
       "M02007:34:000000000-AK48W:1:1101:15713:1758" : {
