@@ -1,5 +1,5 @@
-# 16s-region
-Align sequences to detect the variable regions they span
+# Detect 16S conserved regions
+Given one or
 
 ### detect_region.pl
 
