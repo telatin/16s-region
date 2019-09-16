@@ -68,3 +68,8 @@ The JSON report has an "input_seqs" section, with the alignment read per read, a
 }
 ```	
 
+
+### Compiled SW
+
+The smith-waterman alignment is currently being replaced by the faster [C++ implementation](https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library),
+but retaining a pure-Perl implementation for systems non supporting the binary.
