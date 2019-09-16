@@ -130,7 +130,7 @@ while (my $seq = $query->getRead() )  {
 			$span = 100.00;
 
 		} elsif (( $e > $start ) and ( $s < $start) ) {
-			$span =  100 * ( $e - $start ) / $l ; 
+			$span =  sprintf("%.2f", 100 * ( $e - $start ) / $l ); 
 			if ($span > $opt_ths) {
 				push(@r, "$region");
 				$regions_counter{$region}++;
@@ -139,7 +139,7 @@ while (my $seq = $query->getRead() )  {
 			}
 
 		} elsif ( ( $s < $end ) and ( $e > $end ) ) {
-			$span =  100 * ( $end - $s ) / $l ; 
+			$span =  sprintf("%.2f", 100 * ( $end - $s ) / $l ); 
 			if ($span > $opt_ths) {
 				$regions_counter{$region}++;
 				push(@r, "$region($span)");
