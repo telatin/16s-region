@@ -1,5 +1,5 @@
 # Detect 16S conserved regions
-Given one or
+Given one or more sequences, in FASTA or FASTQ format, this script will align the query against _E. coli_ 16S gene, returning the variable regions covered.
 
 ### detect_region.pl
 
