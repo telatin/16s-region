@@ -73,5 +73,8 @@ The JSON report has an "input_seqs" section, with the alignment read per read, a
 
 ### Compiled SW
 
-The smith-waterman alignment is currently being replaced by the faster [C++ implementation](https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library),
+The smith-waterman alignment is currently being replaced by the faster 
+[C++ implementation](https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library),
 but retaining a pure-Perl implementation for systems non supporting the binary.
+
+Zhao M, Lee W-P, Garrison EP, Marth GT (2013) [SSW Library: An SIMD Smith-Waterman C/C++ Library for Use in Genomic Applications](https://doi.org/10.1371/journal.pone.0082138). PLoS ONE 8(12): e82138. 
